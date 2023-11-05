@@ -1,0 +1,28 @@
+2023-11-05 10:39:49 -Starting ServiceApplication on LAPTOP-M0R315LR with PID 17312 (D:\Projects\im-system\im-service\target\classes started by Yang in D:\Projects\im-system)
+2023-11-05 10:39:49 -The following profiles are active: dev
+2023-11-05 10:39:49 -No MyBatis mapper was found in '[com.yang.im.service]' package. Please check your configuration.
+2023-11-05 10:39:50 -Tomcat initialized with port(s): 8000 (http)
+2023-11-05 10:39:50 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-11-05 10:39:50 -Starting service [Tomcat]
+2023-11-05 10:39:50 -Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-05 10:39:50 -Initializing Spring embedded WebApplicationContext
+2023-11-05 10:39:50 -Root WebApplicationContext: initialization completed in 670 ms
+2023-11-05 10:39:50 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-11-05 10:39:51 -Starting ProtocolHandler ["http-nio-8000"]
+2023-11-05 10:39:51 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-11-05 10:39:51 -Started ServiceApplication in 2.146 seconds (JVM running for 3.225)
+2023-11-05 10:39:54 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-11-05 10:44:21 -Starting ServiceApplication on LAPTOP-M0R315LR with PID 10212 (D:\Projects\im-system\im-service\target\classes started by Yang in D:\Projects\im-system)
+2023-11-05 10:44:21 -The following profiles are active: dev
+2023-11-05 10:44:21 -No MyBatis mapper was found in '[com.yang.im.service]' package. Please check your configuration.
+2023-11-05 10:44:22 -Tomcat initialized with port(s): 8000 (http)
+2023-11-05 10:44:22 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-11-05 10:44:22 -Starting service [Tomcat]
+2023-11-05 10:44:22 -Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-11-05 10:44:22 -Initializing Spring embedded WebApplicationContext
+2023-11-05 10:44:22 -Root WebApplicationContext: initialization completed in 862 ms
+2023-11-05 10:44:22 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-11-05 10:44:23 -Starting ProtocolHandler ["http-nio-8000"]
+2023-11-05 10:44:23 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-11-05 10:44:23 -Started ServiceApplication in 2.408 seconds (JVM running for 3.267)
+2023-11-05 10:45:09 -Shutting down ExecutorService 'applicationTaskExecutor'
