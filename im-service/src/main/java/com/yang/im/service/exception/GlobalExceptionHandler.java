@@ -1,7 +1,7 @@
 package com.yang.im.service.exception;
 
 
-import com.yang.im.common.entity.vo.ResponseVO;
+import com.yang.im.common.vo.ResponseVO;
 import com.yang.im.common.enums.BaseErrorCode;
 import com.yang.im.common.exception.ApplicationException;
 import org.hibernate.validator.internal.engine.path.PathImpl;

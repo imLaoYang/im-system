@@ -1,4 +1,4 @@
-package com.yang.im.common.entity.vo;
+package com.yang.im.common.vo;
 
 import com.yang.im.common.exception.ApplicationExceptionEnum;
 import lombok.AllArgsConstructor;
@@ -23,8 +23,14 @@ public class ResponseVO<T> {
         return new ResponseVO(200, "success", data);
     }
 
+
+
     public static ResponseVO successResponse() {
         return new ResponseVO(200, "success");
+    }
+
+    public static ResponseVO successResponse(String msg) {
+        return new ResponseVO(200, msg);
     }
 
     public static ResponseVO errorResponse() {
@@ -33,6 +39,10 @@ public class ResponseVO<T> {
 
     public static ResponseVO errorResponse(int code, String msg) {
         return new ResponseVO(code, msg);
+    }
+
+    public static ResponseVO errorResponse(String msg) {
+        return new ResponseVO(500, msg);
     }
 
     public static ResponseVO errorResponse(ApplicationExceptionEnum enums) {

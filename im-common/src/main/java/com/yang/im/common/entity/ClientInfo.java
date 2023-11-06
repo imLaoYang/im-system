@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ClientInfo {
 
+
     private Integer appId;
 
     private Integer clientType;

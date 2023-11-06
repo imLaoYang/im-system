@@ -1,4 +1,4 @@
-package com.yang.im.common.entity.dto;
+package com.yang.im.common.dto;
 
 import lombok.Data;
 

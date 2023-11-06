@@ -1,21 +1,24 @@
 package com.yang.im.service.user.entity;
 
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import java.io.Serializable;
 
 /**
- * @author: Chackylee
- * @description: 数据库用户数据实体类
+ * 用户数据表
+ * @author: : 数据库用户数据实体类
  **/
-
 @Data
 @TableName("im_user_data")
 public class ImUserData implements Serializable {
 
     // 用户id
     private String userId;
+
+    // 平台id
+    private Integer appId;
 
     // 用户名称
     private String nickName;
@@ -53,8 +56,10 @@ public class ImUserData implements Serializable {
      */
     private Integer userType;
 
-    private Integer appId;
 
+
+    // 逻辑删
+    @TableLogic(delval = "1")
     private Integer delFlag;
 
     private String extra;
