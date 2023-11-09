@@ -1,18 +1,18 @@
-package com.yang.im.service.user.entity.resp;
+package com.yang.im.service.user.vo;
 
 import lombok.Data;
 
 import java.util.List;
 
 /**
- * 导入用户的response
+ * im_user_data表controller的response
  */
 @Data
-public class ImportUserResp {
+public class UserVO {
 
   // 成功的用户id
   private List<String> successId;
 
   // 失败的用户Id
-  private List<String> errorId;
+  private List<String> failId;
 }

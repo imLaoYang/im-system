@@ -3,7 +3,7 @@ spring:
     active: dev
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.214.137:3306/im-core?serverTimezone=UTC&useSSL=false&characterEncoding=UTF8
+    url: jdbc:mysql://192.168.214.137:3306/im_core?serverTimezone=UTC&useSSL=false&characterEncoding=UTF8
     username: root
     password: root
 
@@ -26,9 +26,6 @@ mybatis-plus:
     db-config:
       update-strategy: NOT_EMPTY
 
-#mybatis:
-#  Configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 httpclient:
   maxTotal: 100

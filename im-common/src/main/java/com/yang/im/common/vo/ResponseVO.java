@@ -57,7 +57,6 @@ public class ResponseVO<T> {
     public ResponseVO(int code, String msg) {
         this.code = code;
         this.msg = msg;
-//		this.data = null;
     }
 
     public ResponseVO success(){

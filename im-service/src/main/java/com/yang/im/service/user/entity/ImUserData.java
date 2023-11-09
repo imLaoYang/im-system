@@ -1,7 +1,6 @@
 package com.yang.im.service.user.entity;
 
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -14,11 +13,13 @@ import java.io.Serializable;
 @TableName("im_user_data")
 public class ImUserData implements Serializable {
 
+
     // 用户id
     private String userId;
 
     // 平台id
     private Integer appId;
+
 
     // 用户名称
     private String nickName;

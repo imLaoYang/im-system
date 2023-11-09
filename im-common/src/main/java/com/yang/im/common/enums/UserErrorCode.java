@@ -10,6 +10,7 @@ public enum UserErrorCode implements ApplicationExceptionEnum {
     USER_IS_NOT_EXIST(20001,"用户不存在"),
     SERVER_GET_USER_ERROR(20002,"服务获取用户失败"),
     MODIFY_USER_ERROR(20003,"更新用户失败"),
+    DELETE_USER_ERROR(20004,"删除用户失败"),
     SERVER_NOT_AVAILABLE(71000, "没有可用的服务"),
     ;
 

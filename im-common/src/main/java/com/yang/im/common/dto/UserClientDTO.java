@@ -4,7 +4,7 @@ import lombok.Data;
 
 
 @Data
-public class UserClientDto {
+public class UserClientDTO {
 
     private Integer appId;
 

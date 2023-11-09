@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.yang.im.service.user.mapper")
+@MapperScan(basePackages = "com.yang.im.service.*.mapper")
 public class ServiceApplication {
 
   public static void main(String[] args) {

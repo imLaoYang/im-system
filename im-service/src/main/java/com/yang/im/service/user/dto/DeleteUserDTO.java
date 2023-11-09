@@ -1,6 +1,6 @@
-package com.yang.im.service.user.entity.req;
+package com.yang.im.service.user.dto;
 
-import com.yang.im.common.entity.RequestBase;
+import com.yang.im.common.dto.BaseDTO;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -9,10 +9,11 @@ import java.util.List;
 
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class DeleteUserReq extends RequestBase {
+public class DeleteUserDTO extends BaseDTO {
 
   // userid集合
   @NotEmpty(message = "用户id不能为空")
   private List<String> userId;
+
 
 }

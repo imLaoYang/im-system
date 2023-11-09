@@ -1,6 +1,6 @@
-package com.yang.im.service.user.entity.req;
+package com.yang.im.service.user.dto;
 
-import com.yang.im.common.entity.RequestBase;
+import com.yang.im.common.dto.BaseDTO;
 import com.yang.im.service.user.entity.ImUserData;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -13,8 +13,11 @@ import java.util.List;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class ImportUserReq extends RequestBase {
+public class ImportUserDTO extends BaseDTO {
 
   // 用户数据列表
   private List<ImUserData> userDataList;
+
+
+
 }

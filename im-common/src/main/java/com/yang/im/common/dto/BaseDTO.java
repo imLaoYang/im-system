@@ -1,10 +1,10 @@
-package com.yang.im.common.entity;
+package com.yang.im.common.dto;
 
 import lombok.Data;
 
 
 @Data
-public class RequestBase {
+public class BaseDTO {
 
     // 平台id
     private Integer appId;
